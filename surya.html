@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portofolio Saya</title>
+   <style>
+      body {
+         font-family: Arial, sans-serif;
+         margin: 0;
+         padding: 0;
+         background-color: #f4f4f4;
+      }
+
+      .container {
+         width: 80%;
+         margin: auto;
+         overflow: hidden;
+      }
+
+      header {
+         background: #333;
+         color: #fff;
+         padding-top: 30px;
+         min-height: 70px;
+         border-bottom: #0779e4 3px solid;
+      }
+
+      header a {
+         color: #fff;
+         text-decoration: none;
+         text-transform: uppercase;
+         font-size: 16px;
+      }
+
+      header ul {
+         padding: 0;
+         list-style: none;
+         float: right;
+      }
+
+      header li {
+         display: inline;
+         padding: 0 20px 0 20px;
+      }
+
+      header #branding {
+         float: left;
+      }
+
+      header #branding h1 {
+         margin: 0;
+      }
+
+      section {
+         padding: 20px;
+         margin: 20px 0;
+         background: #fff;
+      }
+
+      footer {
+         background: #333;
+         color: #fff;
+         text-align: center;
+         padding: 10px;
+         margin-top: 20px;
+      }
+
+      .foto_profile {
+         width: 250px;
+         border: solid 1px rgb(160, 160, 160);
+         border-radius: 50%;
+      }
+
+      .tentang_saya {
+         display: flex;
+
+         justify-content: center;
+         align-items: center;
+      }
+
+      .tentang_Saya {
+         display: flex;
+         align-items: center;
+      }
+
+      .tentang_Saya .text {
+         flex: 1;
+         padding: 5px;
+      }
+
+      .tentang_Saya .image {
+         flex: 0 0 200px;
+         /* Ubah nilai ini sesuai kebutuhan */
+      }
+
+      .foto_profile {
+         width: 100%;
+         height: auto;
+         /* border-radius: 50%; Opsi: Jika Anda ingin gambar berbentuk lingkaran */
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         /* Opsi: Memberikan sedikit bayangan */
+      }
+   </style>
+</head>
+
+<body>
+
+   <header>
+      <div class="container">
+         <div id="branding">
+            <h1>Porto lomba Surya </h1>
+         </div>
+         <nav>
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#about">Tentang</a></li>
+               <li><a href="#experience">Pengalaman</a></li>
+               <li><a href="#projects">Proyek</a></li>
+               <li><a href="#contact">Kontak</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+
+   <section id="about">
+      <div class="container tentang_Saya">
+         <div class="text">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah seorang mahasiswa yang masih menempuh pendidikan dengan pengalaman dalam Teknik Informatika.
+               Saya memiliki keterampilan dalam
+               Pemrograman. Ada beberapa bahasa pemrograman yang saya pelajari seperti Java, C, PHP, dan pemrograman web seperti HTML dan CSS.</p>
+         </div>
+         <div class="image">
+            <img src="surya.jpg" class="foto_profile" alt="Foto Profile">
+         </div>
+      </div>
+   </section>
+
+
+   <section id="experience">
+      <div class="container">
+         <h2>Pengalaman Kerja</h2>
+         <ul>
+            <li>
+               <h3>Sewaktu Kuliah</h3>
+               <p>Pernah menjadi bagian UI designer, Web Developer (front end), Database, untuk tugas individu maupun bekerja dalam tim.</p>
+               <p>UI Designer membuat design untuk sebuah web dan aplikasi yang dibutuhkan untuk tugas maupun
+                  lomba. Web Developer untuk bagian front end mendesign untuk user agar berfungsi sesuai kebutuhan.
+                  lalu membuat database agar dapat berfungsi menyimpan data, menampilkan, serta operasi lainnya yang berkaitan dengan database
+               </p>
+            </li>
+            <!-- Tambahkan pengalaman lain jika ada -->
+         </ul>
+      </div>
+   </section>
+
+   <section id="education">
+      <div class="container">
+         <h2>Pendidikan</h2>
+         <ul>
+            <li>
+               <h3>Madrasah Aliyah Negeri</h3>
+               <p>Jurusan: IPA</p>
+
+            </li>
+            <li>
+               <h3>Universitas Indo Global Mandiri (semester 4)</h3>
+               <p>Prodi: Teknik Informatika</p>
+               <p>Status: masih pendidikan</p>
+            </li>
+            <!-- Tambahkan pendidikan lain jika ada -->
+         </ul>
+      </div>
+   </section>
+
+   <section id="projects">
+      <div class="container">
+         <h2>Proyek</h2>
+         <ul>
+            <li>
+               <h3>Porto Web pribadi</h3>
+               <p>Membuat sebuah web pribadi yang dapat menampilkan profil pribadi, pengalaman, kemampuan, dan proyek yang pernah dijalankan  </p>
+               <p>Teknologi: VScode, html, css, javascript</p>
+            </li>
+            <li>
+               <h3>Program terminal kasir</h3>
+               <p>Membuat sebuah program kasir dalam bahasa java yang dijalankan di terminal.
+               </p>
+               <p>Teknologi: VS code, java</p>
+            </li>
+            <li>
+               <h3>Web pemetaan tingkat kejahatan di indonesia per provinsi</h3>
+               <p>Web yang bertujuan sebagai sarana informasi tingkat kejahatan di berbagai provinsi indonesia dengan
+                  menampilkan informasi
+                  seperti jumlah kejahatn keseluruhan dan jumlah kejahatan per bagian (korupsi, kekerasan, narkoba, dan
+                  lainnya). dengan fitur mencari berdasarkan nama, mengurutkan data berdasarkan nama dari a-z atau
+                  pengurutan bagian kejahatan dari terkecil ke terbesar dan lainnya,
+                  mengedit data menambahkan data, </p>
+               <p>Teknologi: VScode, Xampp, phpmyadmin, html, css, php</p>
+            </li>
+            <!-- Tambahkan proyek lain jika ada -->
+         </ul>
+      </div>
+   </section>
+
+   <section id="contact">
+      <div class="container">
+         <h2>Kontak</h2>
+         <p>Hubungi saya:</p>
+         <p>Email: suryaarioprrama@gmail.com</p>
+         <p>Telepon: 0822-8618-5976</p>
+      </div>
+   </section>
+
+   <footer>
+      <p>Portofolio oleh Surya ario pratama. &copy; 2024</p>
+   </footer>
+
+</body>
+
+</html>
